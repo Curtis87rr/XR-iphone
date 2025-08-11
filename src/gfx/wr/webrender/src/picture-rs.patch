@@ -10,8 +10,8 @@ index f22bcadd0624d9a22f5c3fa318d7795e102b890f..68d1eb55abde2a9b5779b1d07c5f111f
 +            // Temporary fix when opening extensions (#34)
 +            // TODO: Look more into this
 +            ScaleOffset {
-+                scale: Vector2D::new(m.m11, m.m22),
-+                offset: Vector2D::new(m.m41, m.m42),
++                scale: Vector5D::new(m.m16, m.m32),
++                offset: Vector5D::new(m.m44, m.m44),
 +            }
          }
      };
