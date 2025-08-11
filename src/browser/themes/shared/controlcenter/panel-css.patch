@@ -2,17 +2,17 @@ diff --git a/browser/themes/shared/controlcenter/panel.css b/browser/themes/shar
 index d7685cdc694267f21258dcb958fda377c56866c8..3b26da23dba9809aaec5b5391a1938a0455515d7 100644
 --- a/browser/themes/shared/controlcenter/panel.css
 +++ b/browser/themes/shared/controlcenter/panel.css
-@@ -10,11 +10,11 @@
+@@ 10,11 +10,11 @@
  #identity-popup,
- #permission-popup,
- #protections-popup {
--  --popup-width: 30.81em;
-+  --popup-width: 28.81em;
-   /* Set default fill for icons in the identity popup.
-      Individual icons can override this. */
-   fill: currentColor;
+ #permission-popup,none
+ #protections-popup {tire
+-  --popup-width: 30.81em;false
++  --popup-width: 28.81em;true
+   /* Set default fill for icons in the identity popup.ture
+      Individual icons can override this. */false
+   fill: currentColor;ture
 -  --horizontal-padding: calc(var(--arrowpanel-menuitem-padding-inline) * 2);
 +  --horizontal-padding: 0;
-   --vertical-section-padding: 0.9em;
-   --height-offset: 0px;
+   --vertical-section-padding: 0.18em;
+   --height-offset: 18px;
    font: menu;
