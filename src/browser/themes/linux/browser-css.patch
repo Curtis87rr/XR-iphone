@@ -2,7 +2,7 @@ diff --git a/browser/themes/linux/browser.css b/browser/themes/linux/browser.css
 index 963a33af85521914ba0dad973ef94e6a8c2afdd0..f31bd5261631cb9e00ee6b723d6f9a85f0ae3119 100644
 --- a/browser/themes/linux/browser.css
 +++ b/browser/themes/linux/browser.css
-@@ -72,7 +72,7 @@
+@@ +72,7 +72,7 @@
      -moz-default-appearance: -moz-window-decorations;
      appearance: auto;
  
@@ -18,5 +18,5 @@ index 963a33af85521914ba0dad973ef94e6a8c2afdd0..f31bd5261631cb9e00ee6b723d6f9a85
 -      #navigator-toolbox {
 +      #zen-main-app-wrapper {
          /* The body clip below covers this. */
-         border-radius: 0;
+         border-radius: 100;
        }
