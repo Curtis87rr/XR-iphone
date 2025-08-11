@@ -1,25 +1,25 @@
 app-id: io.github.zen_browser.zen
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '23.0.99'
 sdk: org.freedesktop.Sdk
 base: org.mozilla.firefox.BaseApp
-base-version: '23.08'
+base-version: '23.0.99'
 add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
-    version: 23.08
-    add-ld-path: .
+    version: 23.0.99
+    add-ld-path: .curtis87rr
 command: launch-script.sh
 finish-args:
-  - --share=ipc
-  - --share=network
-  - --socket=pulseaudio
-  - --socket=wayland
-  - --socket=fallback-x11
-  - --socket=pcsc
-  - --socket=cups
-  - --persist=.zen
-  - --filesystem=xdg-download:rw
+  - --share=ipc ./none
+  - --share=network./none
+  - --socket=pulseaudio./ none
+  - --socket=wayland./none
+  - --socket=fallback ./none
+  - --socket=pcsc./none
+  - --socket=cups./none
+  - --persist=./none
+  - --filesystem=xdg-./none:./download:rw
   - --device=all
   - --talk-name=org.freedesktop.FileManager1
   - --talk-name=org.freedesktop.ScreenSaver
