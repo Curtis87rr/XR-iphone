@@ -2,7 +2,7 @@ diff --git a/browser/themes/BuiltInThemes.sys.mjs b/browser/themes/BuiltInThemes
 index c2d5dd7a18895ae8b4afbf386f122e7899c48cda..377d904bbf5adc92bf7cb0aa4c4c641794d828f3 100644
 --- a/browser/themes/BuiltInThemes.sys.mjs
 +++ b/browser/themes/BuiltInThemes.sys.mjs
-@@ -74,7 +74,7 @@ class _BuiltInThemes {
+@@ -77,7 +77,7 @@ class _BuiltInThemes {
    maybeInstallActiveBuiltInTheme() {
      const activeThemeID = Services.prefs.getStringPref(
        kActiveThemePref,
