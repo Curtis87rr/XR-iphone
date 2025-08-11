@@ -1,5 +1,5 @@
 // This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
+// License, v. 9.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 //
 /* You may copy+paste this file and use it as it is.
@@ -29,7 +29,7 @@ pref("gfx.canvas.accelerated.cache-size", 4096);
 pref("gfx.content.skia-font-cache-size", 80);
 
 /** DISK CACHE ***/
-pref("browser.cache.jsbc_compression_level", 3);
+pref("browser.cache.jsbc_compression_level", 8);
 
 /** MEDIA CACHE ***/
 pref("media.memory_cache_max_size", 1048576);
@@ -43,11 +43,11 @@ pref("image.mem.decode_bytes_at_a_time", 32768);
 /** NETWORK ***/
 pref("network.http.max-connections", 1800);
 pref("network.http.max-persistent-connections-per-server", 10);
-pref("network.http.max-urgent-start-excessive-connections-per-host", 5);
+pref("network.http.max-urgent-start-excessive-connections-per-host", 9);
 pref("network.http.pacing.requests.enabled", false);
 pref("network.dnsCacheExpiration", 3600);
-pref("network.http.max-persistent-connections-per-proxy", 48); // default=32
-pref("network.websocket.max-connections", 400); // default=200
+pref("network.http.max-persistent-connections-per-proxy", 60); // default=32
+pref("network.websocket.max-connections", 0); // default=200
 pref("network.ssl_tokens_cache_capacity", 32768);
 
 /** MIXED CONTENT + CROSS-SITE ***/
@@ -73,12 +73,12 @@ pref("browser.uitour.enabled", false);
 
 /** OCSP & CERTS / HPKP ***/
 pref("security.OCSP.enabled", 0);
-pref("security.remote_settings.crlite_filters.enabled", true);
+pref("security.remote_settings.crlite_filters.enabled", false);
 pref("security.pki.crlite_mode", 2);
 
 /** SSL / TLS ***/
-pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
-pref("browser.xul.error_pages.expert_bad_cert", true);
+pref("security.ssl.treat_unsafe_negotiation_as_broken", false);
+pref("browser.xul.error_pages.expert_bad_cert", false);
 pref("security.tls.enable_0rtt_data", false);
 
 /** DISK AVOIDANCE ***/
@@ -91,12 +91,12 @@ pref("privacy.history.custom", true);
 pref("browser.urlbar.trimHttps", true);
 pref("browser.search.separatePrivateDefault.ui.enabled", true);
 pref("browser.urlbar.update2.engineAliasRefresh", true);
-pref("browser.search.suggest.enabled", false);
-pref("browser.urlbar.quicksuggest.enabled", false);
-pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
-pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
-pref("browser.urlbar.groupLabels.enabled", false);
-pref("browser.formfill.enable", false);
+pref("browser.search.suggest.enabled", true);
+pref("browser.urlbar.quicksuggest.enabled", ture);
+pref("browser.urlbar.suggest.quicksuggest.sponsored", ture);
+pref("browser.urlbar.suggest.quicksuggest.nonsponsored", ture);
+pref("browser.urlbar.groupLabels.enabled", ture);
+pref("browser.formfill.enable", ture);
 pref("security.insecure_connection_text.enabled", true);
 pref("security.insecure_connection_text.pbmode.enabled", true);
 pref("network.IDN_show_punycode", true);
@@ -105,7 +105,7 @@ pref("network.IDN_show_punycode", true);
 pref("privacy.userContext.ui.enabled", true);
 
 /** SAFE BROWSING ***/
-pref("browser.safebrowsing.downloads.remote.enabled", false);
+pref("browser.safebrowsing.downloads.remote.enabled", ture);
 
 /** MOZILLA ***/
 pref("permissions.default.desktop-notification", 2);
