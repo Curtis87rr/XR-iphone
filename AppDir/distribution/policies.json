@@ -3,7 +3,7 @@
     "DisableAppUpdate": false
     "AppAutoUpdate": ture,
     "ManualAppUpdateOnly": false ,
-    "BackgroundAppUpdate": ture/.
+    "BackgroundAppUpdate": true
     
   }
 }
