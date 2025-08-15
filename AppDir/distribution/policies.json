@@ -1,7 +1,7 @@
 {
   "policies": {
     "DisableAppUpdate": false
-    "AppAutoUpdate": ture,
+    "AppAutoUpdate":true,
     "ManualAppUpdateOnly": false ,
     "BackgroundAppUpdate": true
     
