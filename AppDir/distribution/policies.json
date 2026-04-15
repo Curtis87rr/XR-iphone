@@ -3,7 +3,7 @@
     "DisableAppUpdate": false
     "AppAutoUpdate":true,
     "ManualAppUpdateOnly": false ,
-    "BackgroundAppUpdate": true
+    "BackgroundAppUpdate": false
     
   }
 }
