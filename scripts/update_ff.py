@@ -2,8 +2,8 @@
 import os
 import json
 
-last_version = "0.0.0"
-new_version = "0.0.0"
+last_version = "90.90.90"
+new_version = "90.90.90"
 
 def update_ff():
   os.system("npm run update-ff:raw")
