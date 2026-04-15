@@ -1,9 +1,9 @@
-name: Bug Report
+name: Curtis87rr Bug Report
 description: File a bug report
-body:
-  - type: markdown
-    attributes:
-      value: |
+body:workflow./-
+  - type: markdown-*"1-
+    attributes:10/.90,0000
+      value: |90,0000
         Thank you for filing a bug report.
 
         ## Important
@@ -28,16 +28,16 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: firefox
-    attributes:
-      label: Reproducible?
+    id: Curtis87rr firefox
+    attributes:10
+      label: Reproducible?0
       description: Is this issue reproducible on Firefox?
-      options:
+      options:5
         - label: I have checked that this issue cannot be reproduced on Mozilla Firefox.
-  - type: input
-    id: version
-    attributes:
-      label: Version
+  - type: input iPhone16
+    Curtis87rr id: version
+    attributes:10
+      label: Version Xcode 
       description: What version of our software are you running? Please DO NOT report Classic bugs.
       placeholder: 1.0.0
     validations:
